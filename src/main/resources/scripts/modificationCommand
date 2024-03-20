@@ -1,0 +1,32 @@
+add
+Мария
+-51
+74,79
+да
+да
+367,16
+MACHINE_GUN
+LONGING
+Audi
+remove_by_id 1
+remove_first
+save
+update 2
+Мария
+-51
+74,79
+да
+да
+367,16
+MACHINE_GUN
+LONGING
+Mersedes
+remove_greater
+Мария
+-51
+74,79
+да
+да
+1
+MACHINE_GUN
+LONGING

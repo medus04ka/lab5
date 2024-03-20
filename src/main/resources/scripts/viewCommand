@@ -1,0 +1,9 @@
+help
+show
+history
+filter_less_than_weapon_type
+filter_less_than_weapon_type KNIFE
+info
+print_ascending 3245
+print_ascending
+sum_of_impact_speed

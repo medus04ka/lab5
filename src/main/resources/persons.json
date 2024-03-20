@@ -1,0 +1,41 @@
+{
+  "databaseMetaData": {
+    "clazz": "java.util.PriorityQueue",
+    "localDateTime": "2024-03-20T21:26:58.253851947",
+    "size": 2
+  },
+  "queue": [
+    {
+      "id": 4,
+      "name": "Мария",
+      "coordinates": {
+        "x": -51.0,
+        "y": 74.79
+      },
+      "creationDate": null,
+      "realHero": true,
+      "hasToothpick": false,
+      "impactSpeed": 367.16,
+      "weaponType": "MACHINE_GUN",
+      "mood": "LONGING",
+      "car": null
+    },
+    {
+      "id": 3,
+      "name": "Мария",
+      "coordinates": {
+        "x": -51.0,
+        "y": 74.79
+      },
+      "creationDate": "2024-03-20",
+      "realHero": true,
+      "hasToothpick": true,
+      "impactSpeed": 367.16,
+      "weaponType": "MACHINE_GUN",
+      "mood": "LONGING",
+      "car": {
+        "name": "Audi"
+      }
+    }
+  ]
+}
