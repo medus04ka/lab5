@@ -17,14 +17,6 @@ public class FilterLessThanWeaponType extends AbstractCommand {
     private final BufferedDataWriter infoWriter;
     private final HumanBeingOutputHelper humanBeingOutputHelper;
 
-    /**
-     * Instantiates a new Filter less than weapon type.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public FilterLessThanWeaponType(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 1);
         this.viewReceiver = viewReceiver;

@@ -19,14 +19,6 @@ public class ShowCommand extends AbstractCommand {
     private final HumanBeingOutputHelper humanBeingOutputHelper;
 
 
-    /**
-     * Instantiates a new Show command.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public ShowCommand(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.viewReceiver = viewReceiver;

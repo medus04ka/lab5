@@ -16,14 +16,6 @@ public class PrintAscending extends AbstractCommand {
     private final BufferedDataWriter infoWriter;
     private final HumanBeingOutputHelper humanBeingOutputHelper;
 
-    /**
-     * Instantiates a new Print ascending.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public PrintAscending(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.viewReceiver = viewReceiver;

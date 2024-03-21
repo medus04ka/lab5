@@ -12,13 +12,6 @@ public class HistoryCommand extends AbstractCommand {
     private final BufferedDataWriter infoWriter;
     private final LinkedList<String> historyListOfCommand;
 
-    /**
-     * Instantiates a new History command.
-     *
-     * @param name        the name
-     * @param description the description
-     * @param infoWriter  the info writer
-     */
     public HistoryCommand(String name, String description, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.infoWriter = infoWriter;
@@ -38,11 +31,6 @@ public class HistoryCommand extends AbstractCommand {
         last14Commands.forEach(infoWriter::writeInfo);
     }
 
-    /**
-     * Add to command list.
-     *
-     * @param commandName the command name
-     */
     public void addToCommandList(String commandName) {
         historyListOfCommand.add(commandName);
     }

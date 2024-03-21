@@ -15,14 +15,6 @@ public class InfoCommand extends AbstractCommand {
     private final BufferedDataWriter infoWriter;
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
-    /**
-     * Instantiates a new Info command.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public InfoCommand(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.viewReceiver = viewReceiver;

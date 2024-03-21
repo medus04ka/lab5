@@ -11,14 +11,6 @@ public class SumOfImpactSpeed extends AbstractCommand {
     private final ViewReceiver viewReceiver;
     private final BufferedDataWriter infoWriter;
 
-    /**
-     * Instantiates a new Sum of impact speed.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public SumOfImpactSpeed(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.viewReceiver = viewReceiver;

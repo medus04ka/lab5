@@ -12,14 +12,6 @@ public class HelpCommand extends AbstractCommand {
     private final BufferedDataWriter infoWriter;
     private String helpManual;
 
-    /**
-     * Instantiates a new Help command.
-     *
-     * @param name         the name
-     * @param description  the description
-     * @param viewReceiver the view receiver
-     * @param infoWriter   the info writer
-     */
     public HelpCommand(String name, String description, ViewReceiver viewReceiver, BufferedDataWriter infoWriter) {
         super(name, description, 0);
         this.viewReceiver = viewReceiver;
@@ -36,11 +28,6 @@ public class HelpCommand extends AbstractCommand {
         infoWriter.writeInfo(helpManual);
     }
 
-    /**
-     * Sets help manual.
-     *
-     * @param helpManual the help manual
-     */
     public void setHelpManual(String helpManual) {
         this.helpManual = helpManual;
     }
