@@ -30,7 +30,7 @@ public class HumanBeingReaderImpl implements HumanBeingReader {
 
 
     private String readName() {
-        writer.writeMessage("Введите имя (не пустая строка):");
+        writer.writeMessage("Введите никнаме (не пустая строка):");
         String name = reader.readLine();
         while (name == null || name.trim().isEmpty()) {
             writer.writeErrorMessage("Значение имени не может быть пустым. Пожалуйста, введите имя снова:");
@@ -55,11 +55,11 @@ public class HumanBeingReaderImpl implements HumanBeingReader {
     }
 
     private Boolean readRealHero() {
-        return readBoolean("Введите является ли персонаж настоящим героем? (да/нет):");
+        return readBoolean("Введите является ли персонаж убийцей? (да/нет):");
     }
 
     private boolean readHasToothpick() {
-        return readBoolean("Имеет ли персонаж зуб? (да/нет):");
+        return readBoolean("Имеет ли у персонажа крутая шляпка? (да/нет):");
     }
 
     private double readImpactSpeed() {

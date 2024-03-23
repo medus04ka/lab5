@@ -2,7 +2,7 @@
   "databaseMetaData": {
     "clazz": "java.util.PriorityQueue",
     "localDateTime": "2024-03-21T00:14:17.5286096",
-    "size": 1
+    "size": 2
   },
   "queue": [
     {
@@ -20,6 +20,23 @@
       "mood": "CALM",
       "car": {
         "name": "sdf"
+      }
+    },
+    {
+      "id": 1,
+      "name": "spfopfjas",
+      "coordinates": {
+        "x": 2431.0,
+        "y": 2143.0
+      },
+      "creationDate": "2024-03-23",
+      "realHero": true,
+      "hasToothpick": false,
+      "impactSpeed": 234.0,
+      "weaponType": "AXE",
+      "mood": "CALM",
+      "car": {
+        "name": "osjfospdja"
       }
     }
   ]

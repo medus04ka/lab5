@@ -43,7 +43,7 @@ public class HumanBeingOutputHelper {
                 .append("Координаты: ").append("(x = ").append(human.getCoordinates().getX()).append(", y = ").append(human.getCoordinates().getY()).append(")").append(System.lineSeparator())
                 .append("Дата создания: ").append(human.getCreationDate()).append(System.lineSeparator())
                 .append("Настоящий герой: ").append(booleanToString(human.getRealHero())).append(System.lineSeparator())
-                .append("Имеет зуб: ").append(booleanToString(human.isHasToothpick())).append(System.lineSeparator())
+                .append("Отсылка на Фредди Крюггера?: ").append(booleanToString(human.isHasToothpick())).append(System.lineSeparator())
                 .append("Скорость удара: ").append(human.getImpactSpeed()).append(System.lineSeparator())
                 .append("Оружие: ").append(human.getWeaponType() == null ? "отсутствует" : human.getWeaponType()).append(System.lineSeparator())
                 .append("Настроение: ").append(human.getMood()).append(System.lineSeparator())
