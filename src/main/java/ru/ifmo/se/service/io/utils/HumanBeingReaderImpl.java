@@ -33,7 +33,7 @@ public class HumanBeingReaderImpl implements HumanBeingReader {
         writer.writeMessage("Введите никнаме (не пустая строка):");
         String name = reader.readLine();
         while (name == null || name.trim().isEmpty()) {
-            writer.writeErrorMessage("Значение имени не может быть пустым. Пожалуйста, введите имя снова:");
+            writer.writeErrorMessage("Значение имени не может быть пустым. Пожалуйста, введите никнаме снова:");
             handleScriptDataReadError();
             name = reader.readLine();
         }

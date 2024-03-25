@@ -35,7 +35,7 @@ import java.util.Objects;
 import java.util.PriorityQueue;
 
 /**
- * Класс Runner -
+ * Класс Runner - считывает и с консоли и с идеешки, крутой класс
  */
 public class Runner {
     private final DataReader dataReader;
@@ -135,10 +135,10 @@ public class Runner {
             }
             try {
                 String input = dataReader.readLine();
+                if (input == null) {
+                    break;
+                }
                 if (mode.equals(Mode.FILE)) {
-                    if (input == null) {
-                        break;
-                    }
                     if (Objects.equals(input, "")) {
                         continue;
                     }
